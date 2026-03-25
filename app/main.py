@@ -13,7 +13,7 @@ def main() -> None:
         with open(file_name, "w") as name_file:
             name_file.write(current_time.strftime("%Y-%m-%d %H:%M:%S"))
 
-        print(f"{current_time.strftime('%Y-%m-%d %H:%M:%S')}, {file_name}")
+        print(f"{current_time.strftime('%Y-%m-%d %H:%M:%S')} {file_name}")
         sleep(1)
 
 
